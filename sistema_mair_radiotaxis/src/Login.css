@@ -1,0 +1,63 @@
+/* Login.css */
+
+.contenedor {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, black, #008000); /* Fondo degradado negro-verde */
+}
+
+.container {
+  background-color: rgba(12, 10, 10, 0.8); /* Color de fondo semi-transparente */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra para efecto de vidrio */
+  backdrop-filter: blur(70px); /* Efecto de vidrio */
+  text-align: center;
+  width: 80%; /* Ancho del contenedor del formulario */
+  max-width: 400px; /* Ancho máximo del contenedor del formulario */
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #008000; /* Color verde para el botón */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 24px;
+}
